@@ -1,0 +1,61 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.header {
+    color: rgb(45, 8, 194);
+    border-radius: 20px;
+    text-shadow: 1px 2px 10px rgba(59, 84, 226, 0.31);
+    box-shadow: 5px -5px 5px 0px #1F48C4;
+}
+
+.container {
+    background-color: gold;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-family: 'New Tegomin', serif;
+}
+
+.whitebackground {
+    background-color: azure
+}
+
+.table {
+    border-collapse: collapse;
+    font-family: 'New Tegomin', serif;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.caption {
+    font-size: 40px;
+    color: rgb(8, 0, 2);
+    background-color: rgb(255, 0, 0);
+    font-style: italic;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+
+
+.listItem {
+    list-style-type: square;
+}
+
+.footer {
+    background-color: crimson;
+    padding: 20px;
+    text-align: center;
+}
+
+.button {
+    background: blue;
+    color: white;
+    border: 1px solid white;
+}

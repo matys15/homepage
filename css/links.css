@@ -1,0 +1,15 @@
+
+.link {
+    color: red;
+    text-decoration: none;
+}
+
+.link:visited {
+    color: darkred;
+}
+
+.link:hover {
+    color: black;
+    border-bottom: 1px solid;
+    outline: none;
+}

@@ -1,0 +1,16 @@
+.navigation {
+    list-style: none;
+    padding-left: 0;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+    color: rgb(45, 8, 194);
+}
+
+.navigationItem {
+    margin: 10px 0;
+    padding: 4px;
+    text-shadow: 7px 4px 4px rgba(59, 84, 226, 0.31);
+    width: 160px;
+    border:2px solid black;
+    border-radius: 15px;
+}

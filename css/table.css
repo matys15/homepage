@@ -1,0 +1,17 @@
+.tableCell {
+    text-align: center;
+    border: 3px solid black;
+}
+
+.tableRow:nth-child(even) {
+    background-color: #eee;
+}
+
+.tableRow:hover {
+    background-color: #ddd;
+}
+
+.tableHeader {
+    background-color: red;
+    color: white;
+}
