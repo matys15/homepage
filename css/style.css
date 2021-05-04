@@ -22,29 +22,11 @@ html {
     font-family: 'New Tegomin', serif;
 }
 
-.whitebackground {
+.body--white {
     background-color: azure
 }
 
-.table {
-    border-collapse: collapse;
-    font-family: 'New Tegomin', serif;
-    width: 100%;
-    overflow-x: auto;
-}
-
-.caption {
-    font-size: 40px;
-    color: rgb(8, 0, 2);
-    background-color: rgb(255, 0, 0);
-    font-style: italic;
-    border-top: 3px solid black;
-    border-left: 3px solid black;
-    border-right: 3px solid black;
-}
-
-
-.listItem {
+.list__Item {
     list-style-type: square;
 }
 
@@ -58,4 +40,12 @@ html {
     background: blue;
     color: white;
     border: 1px solid white;
+    margin: 0, auto;
+    display: block;
+}
+.image{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+   border-radius: 10%;
 }

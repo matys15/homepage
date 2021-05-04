@@ -21,17 +21,17 @@
 <body class="container">
     <nav>
         <ul class="navigation">
-            <li class="navigationItem">
+            <li class="navigation__Item">
                 <a class="link" href="#o-mnie">Coś o mnie</a>
             </li>
-            <li class="navigationItem">
+            <li class="navigation__Item">
                 <a class="link" href="#zainteresowania">Zainteresowania</a>
             </li>
             </li>
-            <li class="navigationItem">
+            <li class="navigation__Item">
                 <a class="link" href="#pozostale">Pozostałe</a>
             </li>
-            <li class="navigationItem">
+            <li class="navigation__Item">
                 <a class="link" href="#cele">Cele na przyszłość</a>
             </li>
         </ul>
@@ -40,10 +40,10 @@
         <header>
             <h1 class="header">Mateusz Kowalczyk</h1>
             <p>
-                <img src="https://i.postimg.cc/d06vPzg7/mati.jpg" alt="Moje zdjęcie">
+                <img class="image" src="https://i.postimg.cc/d06vPzg7/mati.jpg" alt="Moje zdjęcie">
             </p>
         </header>
-        <button class="button">Włącz <span class="theName">jasny</span> motyw</button>
+        <button class="button">Włącz <span class="js-theName">jasny</span> motyw</button>
 
         <h2 class="header" id="o-mnie">COŚ O MNIE</h2>
 
@@ -64,7 +64,7 @@
                 Moim ulubionym niepłatnym (a szkoda) zajęciem jest kibicowanie ulubionej drużynie.
             </p>
             <img src="https://media1.tenor.com/images/bb5576e255a4b05d41685ec18827680f/tenor.gif?itemid=10582909"
-                alt="GIF Manchester United">
+                alt="GIF Manchester United" class="image">
             <article>Zacząłem im kibicować już 2008 roku. Przyciągnęła mnie do tej drużyny(pewnie jak wiele innych osób)
                 postać
                 ówczesngo trenera United - Sir Alexa Fergusona. Był to subiektywnie patrząc najlepszy trener sportowy
@@ -75,30 +75,30 @@
                 pory choć w małym stopniu nawiącać do 27 lat jego wspaniałej kariery w tym klubie.
             </article>
             <table class="table">
-                <caption class="caption">Porównanie trzech ostatnich managerów Manchesteru United</caption>
-                <tr class="tableRow">
-                    <th class="tableCell tableHeader" scope="col"></th>
-                    <th class="tableCell tableHeader" scope="col">Louis Van Gaal</th>
-                    <th class="tableCell tableHeader" scope="col">Jose Mourinio</th>
-                    <th class="tableCell tableHeader" scope="col">Ole Gunnar Solskjaer</th>
+                <caption class="table__Caption">Porównanie trzech ostatnich managerów Manchesteru United</caption>
+                <tr class="table__Row">
+                    <th class="table__Cell table__Header" scope="col"></th>
+                    <th class="table__Cell table__Header" scope="col">Louis Van Gaal</th>
+                    <th class="table__Cell table__Header" scope="col">Jose Mourinio</th>
+                    <th class="table__Cell table__Header" scope="col">Ole Gunnar Solskjaer</th>
                 </tr>
-                <tr class="tableRow">
-                    <th class="tableCell tableHeader" scope="row">Czas w klubie</th>
-                    <td class="tableCell">2014-2016</td>
-                    <td class="tableCell">2016-2018</td>
-                    <td class="tableCell">2018-</td>
+                <tr class="table__Row">
+                    <th class="table__Cell table__Header" scope="row">Czas w klubie</th>
+                    <td class="table__Cell">2014-2016</td>
+                    <td class="table__Cell">2016-2018</td>
+                    <td class="table__Cell">2018-</td>
                 </tr>
-                <tr class="tableRow">
-                    <th class="tableCell tableHeader" scope="row">Najlepsze osiągnięcie</th>
-                    <td class="tableCell">FA Cup 2015/2016</td>
-                    <td class="tableCell">Liga Europy 2016/2017</td>
-                    <td class="tableCell">Trzecie miejsce w PL 2019/2020</td>
+                <tr class="table__Row">
+                    <th class="table__Cell table__Header" scope="row">Najlepsze osiągnięcie</th>
+                    <td class="table__Cell">FA Cup 2015/2016</td>
+                    <td class="table__Cell">Liga Europy 2016/2017</td>
+                    <td class="table__Cell">Trzecie miejsce w PL 2019/2020</td>
                 </tr>
-                <tr class="tableRow">
-                    <th class="tableCell tableHeader" scope="row">Najlepszy strzelec</th>
-                    <td class="tableCell">Anthony Martial - 17 goli 2015/2016</td>
-                    <td class="tableCell">Zlatan Ibrahimovic - 28 goli 2016/2017</td>
-                    <td class="tableCell">Anthony Martial - 23 gole 2019/2020</td>
+                <tr class="table__Row">
+                    <th class="table__Cell table__Header" scope="row">Najlepszy strzelec</th>
+                    <td class="table__Cell">Anthony Martial - 17 goli 2015/2016</td>
+                    <td class="table__Cell">Zlatan Ibrahimovic - 28 goli 2016/2017</td>
+                    <td class="table__Cell">Anthony Martial - 23 gole 2019/2020</td>
                 </tr>
             </table>
             <article>Jak widać powyżej, żaden późniejszy trener nie zdołał zdobyć mistrzostwa Anglii lub zwyciężyć w
@@ -109,11 +109,11 @@
             <H2 class="header" id="pozostale">POZOSTAŁE HOBBY</H2>
             <P>Jeśli chodzi o inne zainteresowania, mogę jeszcze parę wymienić:
             <ul>
-                <li class="listItem">Koszykówka</li>
-                <li class="listItem">Karaoke</li>
-                <li class="listItem">Gry Viedo</li>
-                <li class="listItem">Planszówki</li>
-                <li class="listItem">Gry i sztuczki karciane </li>
+                <li class="list__Item">Koszykówka</li>
+                <li class="list__Item">Karaoke</li>
+                <li class="list__Item">Gry Viedo</li>
+                <li class="list__Item">Planszówki</li>
+                <li class="list__Item">Gry i sztuczki karciane </li>
             </ul>
             </P>
         </section>
@@ -121,10 +121,10 @@
             <H2 class="header" id="cele">CELE NA PRZYSZŁOŚĆ</H2>
             <P>Jeszcze wymienię, co bym chciał osiągnąć w niedalekiej przyszłości:
             <ul>
-                <li class="listItem">Na pewno ukończyć ten kurs</li>
-                <li class="listItem">Znaleźć nową pracę która da mi satysfakcję</li>
-                <li class="listItem">Zabrać dziewczyny w jakąś fajną podróż</li>
-                <li class="listItem">Odkopać z odchłani szuflady Arduino i zrobić coś do domu</li>
+                <li class="list__Item">Na pewno ukończyć ten kurs</li>
+                <li class="list__Item">Znaleźć nową pracę która da mi satysfakcję</li>
+                <li class="list__Item">Zabrać dziewczyny w jakąś fajną podróż</li>
+                <li class="list__Item">Odkopać z odchłani szuflady Arduino i zrobić coś do domu</li>
             </ul>
             </P>
         </section>

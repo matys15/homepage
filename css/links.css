@@ -9,7 +9,6 @@
 }
 
 .link:hover {
-    color: black;
-    border-bottom: 1px solid;
+    color: hsl(236, 84%, 30%);
     outline: none;
 }

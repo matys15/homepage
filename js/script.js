@@ -1,15 +1,29 @@
-console.log("Witaj programisto. Co tak podglądasz? :D");
-let button = document.querySelector(".button");
-let container = document.querySelector(".container");
-let theName = document.querySelector(".theName");
+{
+  const init = () => {
+    const button = document.querySelector(".button");
+    button.addEventListener("click", changeBackground);
+    welcome();
 
+  }
 
-button.addEventListener("click", () => {
-  container.classList.toggle("whitebackground");
+    const welcome = () => {
+    console.log("Witaj programisto. Co tak podglądasz? :D");
+  }
 
-if (container.classList.contains("whitebackground")) {
-  theName.innerText = "ciemny";
-} else {
-  theName.innerText = "jasny";
+  const changeBackground = () => {
+    const container = document.querySelector(".container");
+    const theName = document.querySelector(".js-theName");
+
+    container.classList.toggle("body--white");
+
+    if (container.classList.contains("body--white")) {
+      theName.innerText = "ciemny";
+    } else {
+      theName.innerText = "jasny";
+    }
+
+  }
+  init();
 }
-});
+
+
